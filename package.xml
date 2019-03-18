@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ros_tutorial_service</name>
+  <version>0.1.0</version>
+  <description>ROS tutorial package to learn the service</description>
+  <license>Apache License 2.0</license>
+	<author email='is023xf@gmail.com'>Yasuyuki Fujii</author>
+  <maintainer email="fujii@gmail.com">fujii</maintainer>
+	<url type="bugtracker">https://github.co/ROBOTIS-GIT/ros_tutorials/issues</url>
+	<url type="repositry">https://github.co/ROBOTIS-GIT/ros_tutorials.git</url>
+	<url type="website">https://www.robotis.com</url>
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>message_generation</build_depend>
+  <build_depend>std_msgs</build_depend>
+	<run_depend>roscpp</run_depend>
+	<run_depend>std_msgs</rundeped>
+	<run_depend>message_generation</run_depend>
+  <export></export>
+</package>
