@@ -29,7 +29,7 @@ int main(int argc, char** argv)
 	{
 		ROS_INFO("send srv, srv.Request.a and b: %ld, %ld",
 				(long int)srv.request.a, (long int)srv.request.b);
-		ROS_INFO("receive fsrv, srv Response.result: %ld,
+		ROS_INFO("receive srv, srv Response.result: %ld",
 				(long int)srv.response.result);
 	}
 	else
